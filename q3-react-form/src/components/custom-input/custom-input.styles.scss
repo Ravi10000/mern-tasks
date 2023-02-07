@@ -1,0 +1,46 @@
+.input-container {
+    position: relative;
+
+    .custom-input {
+        border: none;
+        width: 100%;
+        padding: 15px 20px;
+        background-color: #F9FBFB;
+        border-radius: 5px;
+        color: var(--primary-clr);
+        font-weight: 600;
+        font-family: 'Montserrat';
+
+        &::placeholder {
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        &:focus {
+            outline: 1px solid #D9DCDE;
+            // outline: none;
+            caret-color: var(--secondary-clr);
+        }
+    }
+
+    img.toggle {
+        opacity: .5;
+        cursor: pointer;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        right: 10px;
+        transform: translatey(-50%);
+    }
+
+}
+
+@media (hover: hover) {
+    .input-container {
+        img.toggle:hover {
+            opacity: .7;
+        }
+    }
+
+}

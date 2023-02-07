@@ -1,0 +1,19 @@
+:root {
+  --primary-clr: #1a525b;
+  --bg: #719f9d;
+  --secondary-clr: #ffba33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg);
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+  cursor: pointer;
+}

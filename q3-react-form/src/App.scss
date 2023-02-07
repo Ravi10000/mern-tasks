@@ -1,0 +1,40 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    .container {
+        width: 90%;
+        height: fit-content;
+        background-color: var(--secondary-clr);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 50px 0;
+
+        img {
+            display: none;
+        }
+
+        .signin-form-container {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .App {
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            padding: 0;
+
+            img {
+                display: inline;
+                width: 40%;
+                height: 100%;
+            }
+        }
+    }
+}

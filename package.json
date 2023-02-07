@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "q1-read-dir.js",
+  "scripts": {
+    "push": "git push -u origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi10000/tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravi10000/tasks/issues"
+  },
+  "homepage": "https://github.com/Ravi10000/tasks#readme"
+}
