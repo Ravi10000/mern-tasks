@@ -1,4 +1,6 @@
-async function showStudentTimeEntries() {
+// assuming Student and WorksnapsTimeEntry are mongoose model
+
+async function showStudentTimeEntries({ Student, WorksnapsTimeEntry }) {
   const students = await Student.find();
   students.forEach(async (student) => {
     const worksnapsTimeEntry = await WorksnapsTimeEntry.find({
